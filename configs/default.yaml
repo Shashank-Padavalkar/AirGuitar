@@ -1,0 +1,33 @@
+camera:
+  device_id: 0
+  width: 1280
+  height: 720
+  fps: 30
+
+pose:
+  min_detection_confidence: 0.5
+  min_tracking_confidence: 0.5
+  model_complexity: 1
+
+hand:
+  min_detection_confidence: 0.5
+  min_tracking_confidence: 0.5
+  max_num_hands: 2
+
+classifier:
+  confidence_threshold: 0.6
+
+interaction:
+  grab_radius: 0.15
+  grab_strength: 0.8
+  upper_grip_offset: 0.1
+  lower_grip_offset: 0.8
+
+physics:
+  gravity_strength: 9.8
+  mass_distribution: [0.2, 0.4, 0.4]
+  damping: 0.95
+  pendulum_stiffness: 0.8
+  release_timeout: 2.0
+  fade_duration: 1.0
+  smoothing_factor: 0.2
