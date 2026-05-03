@@ -1,27 +1,13 @@
-# AirGuitarCV 🎸
+# AirGuitar
 
-AirGuitarCV is a vision-only augmented reality guitar system. When a valid guitar-playing body pose is detected, a physics-based interactive virtual guitar overlay appears. 
+AirGuitar is a vision-only augmented reality guitar system. When a valid guitar-playing pose is detected, a virtual guitar appears and can be interacted with using hand gestures such as grabbing, holding, and releasing.
 
-You can interact with it using hand gestures (grabbing, holding, swinging naturally).
-
-> ⚠️ **Note:** This project is currently a work in progress (WIP) and under active development.
+This project is currently a work in progress and under active development.
 
 ## Setup & Run
 
-1. **Create Virtual Environment**
-   ```bash
-   python -m venv venv
-   # On Windows:
-   venv\Scripts\activate
-   ```
+1. **Run Demo**
 
-2. **Install**
-   ```bash
-   pip install -e .
-   pip install -r requirements.txt
-   ```
-
-3. **Run Demo**
-   ```bash
-   python scripts/run_demo.py
-   ```
+```bash
+python scripts/run_demo.py
+```
